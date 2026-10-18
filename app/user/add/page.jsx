@@ -9,7 +9,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { useRouter } from "next/navigation"
 
-const page = () => {
+const AddUserPage = () => {
   const router = useRouter()
   const handleNewUser = async (e) => {
     e.preventDefault()
@@ -61,4 +61,4 @@ const page = () => {
   )
 }
 
-export default page
+export default AddUserPage
